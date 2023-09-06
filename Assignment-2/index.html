@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title  -->
+    <title>flexbox | assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <!-- body  -->
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container flex">
+        <a class="brand" href="#">
+          <img src="assets/altcampus.img.png" alt="img" />
+        </a>
+        <nav class="nav">
+          <a href="#"> <img src="assets/bell.svg" alt="bell" /></a>
+          <a href="#">
+            <span>Sarah Jone</span>
+            <img src="assets/user.svg" alt="user" />
+          </a>
+        </nav>
+      </div>
+    </header>
+    <!-- main -->
+    <main class="container flex padding">
+      <!-- aside bar -->
+      <aside class="sidebar">
+        <nav class="sidebar-nav">
+          <a href="#">
+            <img src="assets/dashboard.svg" alt="dashboard icon" />
+            <span>Dashboard</span>
+          </a>
+          <a class="active" href="#">
+            <img src="assets/article.svg" alt="article icon" />
+            <span>Article</span>
+          </a>
+          <a href="#">
+            <img src="assets/analytics.svg" alt="Analytics icon" />
+            <span>Analytics</span>
+          </a>
+          <a href="#">
+            <img src="assets/inbox.svg" alt="Inbox icon" />
+            <span>Inbox</span>
+          </a>
+          <a href="#">
+            <img src="assets/setting.svg" alt="Setting icon" />
+            <span>Setting</span>
+          </a>
+        </nav>
+        <!-- logout button  -->
+        <button class="logout-btn">
+          <img src="assets/log-out.svg" alt="logout icon" />
+          <span>Log Out</span>
+        </button>
+      </aside>
+      <!-- article section  -->
+      <article class="article">
+        <img src="assets/img.01.png" alt="article image" />
+        <h1>Why we are doing AltCampus?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+          mollitia quidem molestias minus enim deserunt, culpa sint, voluptatem
+          repudiandae rem aut cumque optio? Molestias eligendi itaque ullam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          optio ipsam error magnam quis, laborum praesentium ea sint, fugiat
+          nostrum maxime earum ex cumque, vitae blanditiis aperiam natus culpa.
+          Placeat.
+        </p>
+        <button class="read" href="#">Read More</button>
+      </article>
+    </main>
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="container flex">
+        <a href="#">&copy;AltCampus</a>
+        <nav>
+          <i class="fab fa-facebook social-icon"></i>
+          <i class="fab fa-twitter social-icon"></i>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
